@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:verdana;
+}
+header{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(car.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position:center;
+}
+ul{
+	float:left;
+	list-style-type:none;
+	margin-top:20px;
+	
+}
+ul li{display:inline-block;
+	padding-left:5px;}
+.menu a{
+	position:reletive;
+	text-decoration:none;
+	color:white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:0.5s ease;
+}
+ 
+.menu a:hover{
+	background:#FAEBD7;
+	color:black;
+	font-size:25px;
+	border-color:blue;
+}
+#act a{
+	font-size:25px;
+	color:black;
+	background:#AFEEEE;
+	border:1px dotted black;
+}
+.logo img {
+	float:right;
+	width:150px;
+	height:100px;
+}
+.main{
+	margin-right:50px;
+	max-width:1200px;
+}
+.title{
+	position:absolute;
+	top:40%;
+	left:18%;
+	transfrom:translate(-50%,-50%);	
+}
+.title h1{
+	color:#fff;
+	font-size:65px;
+}
+
+.title2{
+	position:fixed;
+	bottom:62%;
+	right:45%;
+	transfrom:translate(-60%,-60%);
+	}
+.title2 h3{
+	color:#fff;
+	font-size:30px;
+	}
+.button{
+	position:absolute;
+	top:130%;
+	left:30%;
+	transfrom:translate(-50%,-50%);	
+}
+.btn:hover{
+	background:#FAEBD7;
+	color:black;
+	font-size:25px;
+	border-color:blue;
+	font-family:arial black;
+	
+}
+.btn{
+	border: 1px solid #fff;
+	padding:10px 30px;
+	text-decoration:none;
+	color:#fff;
+	transition:0.8s ease;
+}
+.submenu{
+	text-transform:uppercase;
+	display:none;
+	position:absolute;
+	width:100px;
+	
+}
+.menu:hover .submenu{
+	display:block;
+} 
